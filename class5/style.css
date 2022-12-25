@@ -1,0 +1,41 @@
+/* external css */
+
+body {
+    background-color: gainsboro;
+}
+h1 {
+    border: 10px solid red;
+    outline: 10px solid rgb(9, 186, 3);
+    /* width: 600px; */
+    width: 60%;
+    /* FONTS */
+    font-family: system-ui;
+    font-size:25px;
+    /* font-size: 25%; */
+    line-height: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+ p {
+    border: 2px solid rgb(45, 36, 14);
+ }
+ img {
+    /* width: 200px;
+    height: 500px; */
+    width: 50%;
+ }
+
+ a {
+
+ }
+ .about {
+    text-decoration: none;
+    color: #9bfef5;
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ /* descendant selector */
+ form input{
+    font-family: cursive;
+ }

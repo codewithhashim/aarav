@@ -1,0 +1,47 @@
+p {
+  font-size: 50px;
+  color: red;
+}
+p {
+  font-size: 23px;
+}
+
+/* syntax */
+
+selector {
+  property: value;
+}
+.dif {
+  color: rgb(154, 0, 149);
+  text-align: center;
+}
+#di {
+  font-size: 60px;
+}
+.sec {
+  font-weight: bold;
+}
+/* divsion */
+/* multi selector */
+div,
+h3 {
+  /* width: 200px; */
+  background-color: red;
+  /* min-height: 130%; */
+  min-width: 400px;
+  width: 0px;
+}
+h3 {
+  /* name */
+  color: white;
+  /* hex code */
+  color: #fff;
+  /* rgb */
+  color: rgb(red, green, blue);
+  /* hsl */
+  color: hsl(hue, saturation, lightness);
+  /* rgba */
+  color: rgba(red, green, blue, alpha);
+  /* hsla */
+  color: hsla(hue, saturation, lightness, alpha);
+}

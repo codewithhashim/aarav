@@ -1,0 +1,80 @@
+html {
+    /* relative to root element */
+    /* 1 rem = 16px */
+    /* font-size: 10px; */
+}
+
+p {
+    color: maroon;
+    font-size: 30px;
+}
+/* Pseudo class */
+p:hover {
+    font-size: 45px;
+}
+
+/* Pseudo element  */
+p::after {
+    content: "😍";
+}
+
+p::before {
+    content: "😎😎😎";
+}
+p::first-letter {
+    font-size: 60px;
+}
+h1 {
+    font-size: 20px;
+}
+
+h2{
+    font-size: 2rem
+}
+
+span {
+    /* font-size: 2em; */
+    /* float */
+    /* float: right; */
+}
+
+div {
+    border: 2px solid;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+h3 {
+    /* position determines where an elements needs to be in the document  */
+    /* by default the position of element is set to static */
+    position: relative;
+    /* top: 40px;
+    left: 40px; */
+    /* right: 40px; */
+    /* bottom: 50px; */
+}
+
+
+button {
+    /* position: relative; */
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    /* bottom: ; */
+
+}
+.st {
+    z-index: 3;
+    background-color: lightseagreen;
+}
+.color {
+    background-color: lightcoral;
+    position: relative;
+    top: -60px;
+    /* z-index: 1; */
+    z-index: 2;
+}
+
+
+
+

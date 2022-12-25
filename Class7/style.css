@@ -1,0 +1,59 @@
+/* Display property  */
+/* 
+
+inline
+none
+block
+inline-block
+flex
+inline-flex
+grid
+inline-grid
+*/
+
+section {
+    /*  flex is a css module */
+    display: flex;
+    /* it will make the justify-content to work horizontally */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+    justify-content: flex-start;
+    gap: 70px;
+    border-top: 1px solid;
+    height: 400px;
+    background: #34ff45;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h4 {
+    margin-top: 0;
+}
+
+div {
+    /* display: inline; */
+    /* display: block; */
+    /* display: inline-block; */
+    /* margin-top: 50px; */
+    position: relative;
+    /* left: 50px; */
+    /* display: flex; */
+    min-width: 25%;
+    background-color: gray;
+    /* flex-item properties */
+    /* flex: ; */
+    /* flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ; */
+}
+li {
+    display: inline;
+    padding-left:20px;
+}
+li a {
+    text-decoration: none;
+}
